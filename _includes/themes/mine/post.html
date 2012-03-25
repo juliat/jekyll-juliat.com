@@ -1,0 +1,78 @@
+<article class="single-project">
+
+		<header class="page-header">
+
+			<h1 class="page-title align-left">Portfolio</h1>
+			
+			<a href="portfolio-4-columns.html" class="button no-bg medium align-right">
+				All Projects <img src="img/icon-grid.png" alt="" class="icon">
+			</a>
+
+			<hr />
+
+			<h2 class="project-title">{{ page.title }}</h2>
+			
+			<ul class="portfolio-pagination">
+				{% if page.previous %}
+				<li class="prev"><a href="{{ page.previous.url }}" class="button medium no-bg"><span class="arrow left">&raquo;</span> Previous</a></li>
+				{% endif %}
+				{% if page.previous and page.next %}
+				<li class="next"><a href="{{ page.next.url }}" class="button medium no-bg">Next <span class="arrow">&raquo;</span></a></li>
+				{% endif %}
+			</ul><!-- end .portfolio-pagination -->
+			
+		</header><!-- end .page-header -->
+
+		<div id="main">
+		
+			<div class="image-gallery-slider">
+
+				<ul>
+				{% for image in page.images %}
+					<li>
+						<a href={{ image }} class="single-image" title="" rel="single-project">
+							<img src={{image}} alt="">
+						</a>
+					</li>
+				{% endfor %}
+				</ul>
+				
+			</div><!-- end .image-gallery-slider -->
+		
+		</div><!-- end #main -->
+
+		<div id="sidebar">
+
+			<h4>Overview</h4>
+			<p class="date">
+				Date: 
+				<date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>
+				<span class="month"><abbr>{{ page.date | date: '%B' }}</abbr></span>
+				<span class="year">{{ page.date | date: '%Y' }}</span>
+				</date>
+			</p>
+
+			{{ content }}
+
+			<h4>Things I did</h4>
+
+			<ul class="check">
+				<li class="list-head">category: </li>
+				{% assign categories_list = page.categories %}
+				{% include JB/categories_list %}
+				<!--  for example
+				<li>HTML/CSS</li>
+				<li>Information Architecture</li>
+				<li>User Interface Design</li>
+				<li>Programming</li>
+				-->
+			</ul>
+
+			{% if page.website %}
+			<p>
+				<a href="#" class="button">Launch website</a>
+			</p>
+			{% endif %}
+		</div><!-- end #sidebar -->
+		
+	</article><!-- end .single-project -->
