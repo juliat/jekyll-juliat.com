@@ -720,7 +720,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 			.image-gallery-slider a { margin-bottom: 0; }
 
-			.image-gallery-slider img { margin-bottom: -5px; }
+			.image-gallery-slider img { margin-bottom: -5px; max-width: 100%;}
 		
 	.image-gallery-slider-nav {}
 

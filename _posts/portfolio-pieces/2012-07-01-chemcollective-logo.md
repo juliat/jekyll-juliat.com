@@ -2,6 +2,7 @@
 layout: post
 category : design
 tags : [logo, identity, chemcollective]
+images : [/assets/images/logo.jpg, /assets/images/logo_black_w.jpg, /assets/images/logo_b_white.jpg]
 ---
 
 <p class="description">
