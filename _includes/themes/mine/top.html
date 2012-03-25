@@ -9,14 +9,17 @@
 	<nav id="main-nav">
 		
 		<ul>
-			<li class="current">
+			<li {% if page.url == "/index.html" %} class="current" {% endif %}>
 				<a href="/index.html">Portfolio</a>
 			</li>
-			<li>
+			<li {% if page.url == "/resume.html" %} class="current" {% endif %}>
 				<a href="/resume.html">Resume</a>
 			</li>
+			<li {% if page.url == "/about.html" %} class="current" {% endif %}>
+				<a href="/about.html">About</a>
+			</li>
 			<li>
-				<a href="/about.html">About/Contact</a>
+				<a href="mailto:juliat@cmu.edu?Subject=GitHub Pages Website Response">Contact</a>
 			</li>
 		</ul>
 

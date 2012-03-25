@@ -689,7 +689,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 	#main {
 		float: left;
 		margin: 0 40px 0 0;
-		width: 680px;
+		width: 600px;
 	}
 		
 		/* ---------------------------------------- */
@@ -1939,7 +1939,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 #sidebar {
 	float: right;
-	width: 220px;
+	width: 300px;
 }
 
 	/* -------------------------------------------------- */
