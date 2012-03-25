@@ -1,7 +1,8 @@
 ---
 layout: post
-category : design
-tags : [logo, identity, chemcollective]
+category : [Logo Design]
+tags : [logos, chemcollective]
+image : /assets/images/logo.jpg
 images : [/assets/images/logo.jpg, /assets/images/logo_black_w.jpg, /assets/images/logo_b_white.jpg]
 ---
 

@@ -1,0 +1,39 @@
+<header class="page-header">
+
+	<h1 class="page-title">Things we have done</h1>
+
+	<ul id="portfolio-items-filter">
+
+		<li>Showing</li>
+		<li><a data-categories="*">All</a></li>
+		<li><a data-categories="animation">Animation</a></li>
+		<li><a data-categories="design">Design</a></li>
+		<li><a data-categories="illustration">Illustration</a></li>
+		<li><a data-categories="photography">Photography</a></li>
+		<li><a data-categories="web">Web</a></li>
+
+	</ul><!-- end #portfolio-items-filter -->
+	
+</header><!-- end .page-header -->
+
+<section id="portfolio-items" class="clearfix">
+
+  {% for post in site.posts %}
+		<!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>-->
+	<article class="one-third" data-categories="{{post.tags}}">
+
+		<a href= class="single-image" title="">
+			<img src="{{post.image}}" alt="">
+		</a>
+
+		<a href="{{ BASE_PATH }}{{ post.url }}" class="project-meta">
+			<h5 class="title">{{ post.title }}</h5>
+			<span class="categories"><p>{% assign tags_list = page.tags %}</p></span>
+			{% include JB/tags_list %}
+		</a>
+		
+	</article><!-- end .one-third (Altered) -->
+  {% endfor %}
+
+</section><!-- end #portfolio-items -->
+

@@ -481,7 +481,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 	#logo {
 		float: left;
-		height: 86px;
+		margin-top: 19px;
 	}
 
 	/* -------------------------------------------------- */
@@ -508,7 +508,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 					font-weight: 800;
 					display: block;
 					letter-spacing: -0.08px;
-					padding: 26px 20px 40px;
+					padding: 32px 20px 34px;
 					position: relative;
 					text-align: center;
 					text-transform: uppercase;
@@ -1607,6 +1607,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 				margin: 0 0 -5px;
 				filter: alpha(opacity=60); /* Fallback for old IE */
 				opacity: 0.6;
+				max-width: 100%;
 			}
 
 			.projects-carousel img { margin-bottom: 15px; }
@@ -2749,7 +2750,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 	/*	Header
 	/* -------------------------------------------------- */
 
-	#logo { max-height: 100%; }
+	#logo { max-height: 100%; margin-top: 12px;}
 
 	/* -------------------------------------------------- */
 	/*	Content
@@ -2901,7 +2902,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 	#header { height: 72px; }
 
-	#logo { margin-top: -7px; }
+	#logo { margin-top: -7px; margin-top: 19px;}
 
 		/* ---------------------------------------- */
 		/*	Main Navigation
@@ -3058,6 +3059,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 			display: block;
 			float: none;
 			text-align: center;
+			margin-top: 15px;
 		}
 
 		/* ---------------------------------------- */
