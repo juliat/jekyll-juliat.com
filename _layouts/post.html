@@ -2,4 +2,226 @@
 layout: default
 ---
 {% include JB/setup %}
-{% include themes/the-minimum/post.html %}
+{% include partials/head.html %}
+
+<body>
+
+<header id="header" class="container clearfix">
+
+	<a href="index.html" id="logo">
+		<img src="img/logo.png" alt="SmartStart">
+	</a>
+
+	<nav id="main-nav">
+		
+		<ul>
+			<li>
+				<a href="index.html" data-description="All starts here">Home</a>
+				<ul>
+					<li><a href="logos-slider.html">Logos Slider</a></li>
+					<li><a href="photos-slider.html">Photos Slider</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="elements.html" data-description="All the different stuff">Features</a>
+				<ul>
+					<li><a href="about-us.html">About Us</a></li>
+					<li><a href="our-team.html">Our Team</a>
+						<ul>
+							<li><a href="we-are-hiring.html">We are hiring</a></li>
+						</ul>
+					</li>
+					<li><a href="elements.html">Elements</a></li>
+					<li><a href="pricing-tables.html">Pricing Tables</a></li>
+					<li><a href="columns.html">Columns</a></li>
+					<li><a href="#">Third Level Item</a>
+						<ul>
+							<li><a href="#">This is a simple example</a></li>
+							<li><a href="#">Of the third level</a></li>
+							<li><a href="#">Navigation item</a></li> 
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="blog.html" data-description="What we think">Blog</a>
+				<ul>
+					<li><a href="single-post.html">Single Post</a></li>
+				</ul>
+			</li>
+			<li class="current">
+				<a href="portfolio-4-columns.html" data-description="Work we are proud of">Portfolio</a>
+				<ul>
+					<li><a href="portfolio-2-columns.html">2 Columns</a></li>
+					<li><a href="portfolio-3-columns.html">3 Columns</a></li>
+					<li><a href="portfolio-4-columns.html">4 Columns</a></li>
+					<li class="current"><a href="single-project.html">Single Project</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="contact-us.html" data-description="Enquire here">Contact</a>
+			</li>
+		</ul>
+
+	</nav><!-- end #main-nav -->
+	
+</header><!-- end #header -->
+
+<section id="content" class="container clearfix">
+
+	<article class="single-project">
+
+		<header class="page-header">
+
+			<h1 class="page-title align-left">Things we have done</h1>
+			
+			<a href="portfolio-4-columns.html" class="button no-bg medium align-right">
+				All Projects <img src="img/icon-grid.png" alt="" class="icon">
+			</a>
+
+			<hr />
+
+			<h2 class="project-title">Single Project / Altered</h2>
+
+			<ul class="portfolio-pagination">
+				<li class="prev"><a href="#" class="button medium no-bg"><span class="arrow left">&raquo;</span> Previous</a></li>
+				<li class="next"><a href="#" class="button medium no-bg">Next <span class="arrow">&raquo;</span></a></li>
+			</ul><!-- end .portfolio-pagination -->
+			
+		</header><!-- end .page-header -->
+
+		<div id="main">
+		
+			<div class="image-gallery-slider">
+
+				<ul>
+
+					<li>
+						<a href="img/placeholders/single-project-1.jpg" class="single-image" title="Altered - Something abstract." rel="single-project">
+							<img src="img/placeholders/single-project-1.jpg" alt="Altered">
+						</a>
+					</li>
+
+					<li>
+						<a href="img/placeholders/single-project-2.jpg" class="single-image" title="Altered - Something abstract." rel="single-project">
+							<img src="img/placeholders/single-project-2.jpg" alt="Altered">
+						</a>
+					</li>
+
+					<li>
+						<a href="img/placeholders/single-project-3.jpg" class="single-image" title="Altered - Something abstract." rel="single-project">
+							<img src="img/placeholders/single-project-3.jpg" alt="Altered">
+						</a>
+					</li>
+
+				</ul>
+				
+			</div><!-- end .image-gallery-slider -->
+		
+		</div><!-- end #main -->
+
+		<div id="sidebar">
+
+			<h4>Overview</h4>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam.</p>
+
+			<p>Aliquam erat volutpat. Sed consectetur suscipit nunc et rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo.</p>
+
+			<h4>Things we did</h4>
+
+			<ul class="check">
+				<li>HTML/CSS</li>
+				<li>Information Architecture</li>
+				<li>User Interface Design</li>
+				<li>Programming</li>
+			</ul>
+
+			<p>
+				<a href="#" class="button">Launch website</a>
+			</p>
+
+		</div><!-- end #sidebar -->
+		
+	</article><!-- end .single-project -->
+	
+</section><!-- end #content -->
+
+<footer id="footer" class="clearfix">
+
+	<div class="container">
+
+		<div class="three-fourth">
+
+			<nav id="footer-nav" class="clearfix">
+
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="elements.html">Features</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="portfolio-4-columns.html">Portfolio</a></li>
+					<li><a href="contact-us.html">Contact</a></li>
+				</ul>
+				
+			</nav><!-- end #footer-nav -->
+
+			<ul class="contact-info">
+				<li class="address">012 Some Street. New York, NY, 12345. USA</li>
+				<li class="phone">(123) 456-7890</li>
+				<li class="email"><a href="mailto:contact@companyname.com">contact@companyname.com</a></li>
+			</ul><!-- end .contact-info -->
+			
+		</div><!-- end .three-fourth -->
+
+		<div class="one-fourth last">
+
+			<span class="title">Stay connected</span>
+
+			<ul class="social-links">
+				<li class="twitter"><a href="#">Twitter</a></li>
+				<li class="facebook"><a href="#">Facebook</a></li>
+				<li class="digg"><a href="#">Digg</a></li>
+				<li class="vimeo"><a href="#">Vimeo</a></li>
+				<li class="youtube"><a href="#">YouTube</a></li>
+				<li class="skype"><a href="#">Skype</a></li>
+			</ul><!-- end .social-links -->
+
+		</div><!-- end .one-fourth.last -->
+		
+	</div><!-- end .container -->
+
+</footer><!-- end #footer -->
+
+<footer id="footer-bottom" class="clearfix">
+
+	<div class="container">
+
+		<ul>
+			<li>SmartStart &copy; 2012</li>
+			<li><a href="#">Legal Notice</a></li>
+			<li><a href="#">Terms</a></li>
+		</ul>
+
+	</div><!-- end .container -->
+
+</footer><!-- end #footer-bottom -->
+
+<!--[if !lte IE 6]><!-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
+	<!--[if lt IE 9]> <script src="js/selectivizr-and-extra-selectors.min.js"></script> <![endif]-->
+	<script src="js/respond.min.js"></script>
+	<script src="js/jquery.easing-1.3.min.js"></script>
+	<script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+	<script src="js/jquery.smartStartSlider.min.js"></script>
+	<script src="js/jquery.jcarousel.min.js"></script>
+	<script src="js/jquery.cycle.all.min.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<script src="//maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="js/jquery.gmap.min.js"></script>
+	<script src="js/jquery.touchSwipe-1.2.5.min.js"></script>
+	<script src="js/custom.js"></script>
+<!--<![endif]-->
+</body>
+</html>
