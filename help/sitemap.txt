@@ -1,0 +1,9 @@
+
+http://username.github.com/about.html
+http://username.github.com/archive.html
+http://username.github.com/index.html
+http://username.github.com/pages.html
+http://username.github.com/resume.html
+http://username.github.com/sitemap.txt
+
+http://username.github.com/chemcollective-logo

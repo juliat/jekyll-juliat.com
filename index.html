@@ -8,6 +8,7 @@ title: Portfolio
 
 	<h1 class="page-title">{{page.title}}</h1>
 
+	<!--
 	<ul id="portfolio-items-filter">
 
 		<li>Showing</li>
@@ -26,7 +27,7 @@ title: Portfolio
 
   {% for post in site.posts %}
 		<!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>-->
-	<article class="one-third" data-categories="illustration design">
+	<article class="one-third" data-categories="{{post.tags[tag] | join: " "}}">
 
 		<a href="{{post.url}}" class="single-image" title="">
 			<img src="{{post.image}}" alt="">
@@ -35,7 +36,7 @@ title: Portfolio
 		<a href="{{ BASE_PATH }}{{ post.url }}" class="project-meta">
 			<h5 class="title">{{ post.title }}</h5>
 			<span class="categories">
-				{{ post.categories }}
+				{{ post.categories[category] | join: "/"}}
 			</span>
 		</a>
 		
