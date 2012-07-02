@@ -1,15 +1,15 @@
 <header class="page-header">
 
-	<h1 class="page-title">Things we have done</h1>
+	<h1 class="page-title">Portfolio</h1>
 
 	<ul id="portfolio-items-filter">
 
 		<li>Showing</li>
 		<li><a data-categories="*">All</a></li>
-		<li><a data-categories="animation">Animation</a></li>
-		<li><a data-categories="design">Design</a></li>
-		<li><a data-categories="illustration">Illustration</a></li>
-		<li><a data-categories="photography">Photography</a></li>
+		<li><a data-categories="web-design">Web Design</a></li>
+		<li><a data-categories="print-design">Print Design</a></li>
+		<li><a data-categories="poster-design">Poster Design</a></li>
+		<li><a data-categories="information-architecture">Information Architecture</a></li>
 		<li><a data-categories="web">Web</a></li>
 
 	</ul><!-- end #portfolio-items-filter -->
@@ -20,7 +20,7 @@
 
   {% for post in site.posts %}
 		<!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>-->
-	<article class="one-third" data-categories="{{post.tags}}">
+	<article class="one-third" data-categories="{{post.tags | join:',' | downcase | replace:' ','-' | replace:',',' ' }}">
 
 		<a href= class="single-image" title="">
 			<img src="{{post.image}}" alt="">
