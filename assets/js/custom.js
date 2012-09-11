@@ -130,9 +130,9 @@ jQuery(document).ready(function($) {
 	/* ---------------------------------------------------------------------- */
 
 	(function() {
-
+		//.single-image,
 		// Images
-		$('.single-image, .image-gallery').fancybox({
+		$(' .image-gallery').fancybox({
 			'transitionIn'  : 'fade',
 			'transitionOut' : 'fade',
 			'titlePosition' : 'over'
