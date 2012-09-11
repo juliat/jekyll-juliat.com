@@ -1,9 +1,3 @@
-.pf-image {height:210px; display:block;}
-
-#portfolio-items .title {
-    border-top: 1px solid #EFEFEF;
-    padding-top: 1.75em;
-}
 /* ---------------------------------------------------------------------- */
 /*	Reset & Clearfix (http://meyerweb.com/eric/tools/css/reset/)
 /* ---------------------------------------------------------------------- */
@@ -3513,4 +3507,11 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 		.social-links li:nth-child(8n) { margin-right: 15px; }
 
+}
+
+.pf-image {height:210px; display:block;}
+
+#portfolio-items .title {
+    border-top: 1px solid #EFEFEF;
+    padding-top: 1.75em;
 }
