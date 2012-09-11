@@ -1,3 +1,10 @@
+span.pf-image {
+	display:block;
+	height:210px;
+}
+	
+
+
 /* ---------------------------------------------------------------------- */
 /*	Reset & Clearfix (http://meyerweb.com/eric/tools/css/reset/)
 /* ---------------------------------------------------------------------- */
@@ -192,7 +199,7 @@ blockquote {
 	margin-bottom: 5px;
 	position: relative;
 }
-	
+
 	.single-image.align-left, .image-gallery.align-left, .iframe.align-left { margin-bottom: 15px; margin-right: 15px; }
 	.single-image.align-right, .image-gallery.align-right, .iframe.align-right { margin-bottom: 15px; margin-left: 15px; }
 
@@ -1581,6 +1588,11 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 			margin: 0 20px 0 0;
 			overflow: hidden;
 			position: relative;
+		}
+		
+		#portfolio-items article .title {
+			padding-top: 1.75em;
+			border-top: 1px solid #EFEFEF;
 		}
 		
 		.projects-carousel li, .post-carousel li { width: 220px; }

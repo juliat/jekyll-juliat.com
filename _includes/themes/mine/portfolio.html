@@ -22,11 +22,10 @@
 		<!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>-->
 	<article class="one-third" data-categories="{{post.tags | join:',' | downcase | replace:' ','-' | replace:',',' ' }}">
 
-		<a href="{{ BASE_PATH }}{{ post.url }}" class="single-image">
-			<img src="{{post.image}}" alt="">
-		</a>
-
 		<a href="{{ BASE_PATH }}{{ post.url }}" class="project-meta">
+			<span class="pf-image">
+				<img src="{{post.image}}" alt="">
+			</span>
 			<h5 class="title">{{ post.title }}</h5>
 			<span class="categories"><p>{% assign tags_list = page.tags %}</p></span>
 			{% include JB/tags_list %}
