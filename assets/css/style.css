@@ -1,10 +1,9 @@
-span.pf-image {
-	display:block;
-	height:210px;
+.pf-image {height:210px; display:block;}
+
+#portfolio-items .title {
+    border-top: 1px solid #EFEFEF;
+    padding-top: 1.75em;
 }
-	
-
-
 /* ---------------------------------------------------------------------- */
 /*	Reset & Clearfix (http://meyerweb.com/eric/tools/css/reset/)
 /* ---------------------------------------------------------------------- */
