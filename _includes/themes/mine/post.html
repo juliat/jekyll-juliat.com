@@ -57,14 +57,11 @@
 			<h4>Things I did</h4>
 
 			<ul class="check">
-				{% assign categories_list = page.categories %}
-				{% include JB/categories_list %}
-				<!--  for example
-				<li>HTML/CSS</li>
-				<li>Information Architecture</li>
-				<li>User Interface Design</li>
-				<li>Programming</li>
-				-->
+				{% for tag in page.tags %}
+					<li>
+						{{tag}}
+					</li>
+				{% endfor %}
 			</ul>
 
 			{% if page.website %}
