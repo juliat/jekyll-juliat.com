@@ -1,7 +1,7 @@
 ---
 layout: post
 category : [Print Design]
-tags : [Print Design, Book Design]
+tags : [Visual Design, Print Design]
 tools : [Adobe InDesign]
 image : /assets/images/bmr/1.jpg
 images : [/assets/images/bmr/1.jpg, /assets/images/bmr/2.jpg, /assets/images/bmr/3.jpg, /assets/images/bmr/4.jpg]

@@ -1,7 +1,7 @@
 ---
 layout: post
-category : [Web Design]
-tags : [Web Design, UX Design, Web Development]
+category : [UX Design]
+tags : [UX Design, Web Design, Responsive Web Development]
 tools : [PHP, HTML, CSS]
 image : /assets/images/nightnight/3.jpg
 images : [/assets/images/nightnight/1.jpg, /assets/images/nightnight/2.jpg, /assets/images/nightnight/3.jpg]

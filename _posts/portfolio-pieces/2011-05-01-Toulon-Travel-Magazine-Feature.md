@@ -1,7 +1,7 @@
 ---
 layout: post
 category : [Print Design]
-tags : [Magazine Design]
+tags : [Visual Design]
 tools : [Adobe InDesign]
 image : /assets/images/toulon/det.jpg
 images : [/assets/images/toulon/det.jpg, /assets/images/toulon/1.jpg, /assets/images/toulon/2.jpg, /assets/images/toulon/3.jpg, /assets/images/toulon/4.jpg]

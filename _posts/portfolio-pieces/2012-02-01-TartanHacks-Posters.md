@@ -1,7 +1,7 @@
 ---
 layout: post
 category : [Print Design]
-tags : [Print Design, Poster Design]
+tags : [Visual Design, Print Design]
 tools : [Adobe InDesign, Adobe Photoshop]
 image : /assets/images/tartanhacks-posters/3.jpg
 images : [/assets/images/tartanhacks-posters/2.jpg, /assets/images/tartanhacks-posters/3.jpg, /assets/images/tartanhacks-posters/1.jpg]

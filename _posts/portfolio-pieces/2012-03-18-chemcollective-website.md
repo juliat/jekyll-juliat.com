@@ -1,7 +1,7 @@
 ---
 layout: post
 category : [UX Design]
-tags : [Web Design, Information Architecture]
+tags : [UX Design,  Information Architecture, Web Design, Front-End Web Development, Back-End Web Development]
 tools : [HTML & CSS]
 image : /assets/images/chemcoll-site/2.jpg
 images : [/assets/images/chemcoll-site/1.jpg, /assets/images/chemcoll-site/2.jpg, /assets/images/chemcoll-site/3.jpg, /assets/images/chemcoll-site/4.jpg]

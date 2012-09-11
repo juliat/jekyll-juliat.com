@@ -1,7 +1,7 @@
 ---
 layout: post
 category : [Print Design]
-tags : [Poster Design]
+tags : [Visual Design, Print Design]
 tools : [Adobe InDesign]
 image : /assets/images/beatles/all.jpg
 images : [/assets/images/beatles/all.jpg, /assets/images/beatles/1.jpg, /assets/images/beatles/2.jpg, /assets/images/beatles/3.jpg]
