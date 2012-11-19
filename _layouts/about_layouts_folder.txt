@@ -1,0 +1,8 @@
+About this directory: _layouts
+
+For this boilerplate, you can pretty much ignore this directory, since all the layouts and styling
+info is in the theme you use/create. The only reason you'd start caring about this directory was
+if you changed the name of the folder/the theme that you want to use for the layout. In that case,
+you'd want to open up the pages in this theme and edit the includes statements that look like this:
+
+{% include themes/mine/bottom.html %}
